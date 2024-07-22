@@ -1,0 +1,150 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://img.freepik.com/premium-vector/luxury-white-gold-marble-pattern-texture-backgrounds_186931-398.jpg?w=2000");
+    background-repeat: repeat;
+    color: rgb(88, 84, 84);
+    padding: 30px;
+    
+}
+
+
+.profile-pic {
+    display: flex;
+    width: 200px;
+    height: 260px;
+    border: 5px solid rgba(88, 84, 84, 0.699);
+    margin: 50px;
+    
+}
+
+img {
+    display: flex;
+    width: 200px;
+    height: 210px;
+    border: 5px solid rgba(88, 84, 84, 0.699);
+   
+    
+}
+
+nav {
+    list-style-type: none;
+    text-align: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+    list-style-type:none;
+    font-size: 30px;
+
+}
+
+nav a {
+    color: rgb(88, 84, 84);
+    padding: 3px;
+
+}
+
+ 
+.quote  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+    color:  rgb(88, 84, 84);
+}
+p.quote {
+    margin: 10;
+    justify-content: space-around;
+}
+p {
+    padding-left: 10px;
+    justify-content: space-evenly;
+    font-weight: 100px;
+    margin: 10px;
+}
+
+.home {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.bio {
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(88, 84, 84);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(211, 211, 211, 0.705);
+    margin-bottom: 50px;
+}
+
+main {
+    color: rgb(88, 84, 84);
+    font-size: larger;
+
+}
+   
+h1 { 
+    font-weight: 100;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h2 { 
+    display: flex;
+    font-weight: 100;
+    font-size: 30px;
+    justify-content: start;
+    background-color: rgba(211, 211, 211, 0.705);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+footer{
+    display: flex;
+    font-size: large;
+    background-color: rgba(211, 211, 211, 0.705);
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+footer p{
+    
+ margin-top: auto;
+ margin-bottom: auto;
+
+}
+
+[aria-current] {
+    color: white;
+}
+
+li a {
+    list-style-type: none;
+    color:  rgb(88, 84, 84);;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+   
+}
